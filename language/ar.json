@@ -57,20 +57,20 @@
                             "label":"عناوين فرعية"
                           },
                           {
-                            "label":"Captions"
+                            "label":"التسميات التوضيحية"
                           },
                           {
-                            "label":"Descriptions"
+                            "label":"الوصف"
                           }
                         ]
                       },
                       {
-                        "label":"Source language, must be defined for subtitles",
+                        "label":"لغة المصدر، يجب تعريفها للترجمات",
                         "default":"en",
                         "description":"Must be a valid BCP 47 language tag. If 'Subtitles' is the type of text track selected, the source language of the track must be defined."
                       },
                       {
-                        "label":"Track source (WebVTT file)"
+                        "label":"تتبع المصدر (WebVTT file)"
                       }
                     ]
                   }
@@ -100,14 +100,14 @@
                     "label":"إيقاف مؤقت"
                   },
                   {
-                    "label":"Display as",
-                    "description":"<b>Button</b> is a collapsed interaction the user must press to open. <b>Poster</b> is an expanded interaction displayed directly on top of the video",
+                    "label":"عرض كـ",
+                    "description":"<b>زر</b> هو تفاعل ضم يجب على المستخدم الضغط لفتحه<b>الملصق</b> هو تفاعل موسع يتم عرضه مباشرة أعلى الفيديو",
                     "options":[
                       {
-                        "label":"Button"
+                        "label":"زر"
                       },
                       {
-                        "label":"Poster"
+                        "label":"ملصق"
                       }
                     ],
                     "default":"button"
@@ -117,7 +117,7 @@
                   },
                   {
                     "label":"التسمية",
-                    "description":"Label displayed next to interaction icon."
+                    "description":"تم عرض التصنيف بجوار رمز التفاعل."
                   },
                   {
 
@@ -144,17 +144,17 @@
                         "label":"اتخاذ إجراء بشأن جميع الصحيح",
                         "fields":[
                           {
-                            "label":"Seek to",
-                            "description":"Enter timecode in the format M:SS"
+                            "label":"البحث عن",
+                            "description":"أدخل رمز الوقت بالتنسيق M:SS"
                           },
                           {
-                            "label":"Allow the user to opt out and continue"
+                            "label":"السماح للمستخدم بالتعطيل والمتابعة"
                           },
                           {
-                            "label":"Message"
+                            "label":"رسالة"
                           },
                           {
-                            "label":"Label for seek button"
+                            "label":"التسمية لزر البحث "
                           }
                         ]
                       },
@@ -166,18 +166,18 @@
                             "description":"Enter timecode in the format M:SS"
                           },
                           {
-                            "label":"Allow the user to opt out and continue"
+                            "label":"السماح للمستخدم بالتعطيل والمتابعة"
                           },
                           {
-                            "label":"Message"
+                            "label":"رسالة"
                           },
                           {
-                            "label":"Label for seek button"
+                            "label":"تسمية رز البحث"
                           }
                         ]
                       },
                       {
-                        "label":"Require full score for task before proceeding",
+                        "label":"تتطلب درجة كاملة للمهمة قبل المتابعة",
                         "description":"For best functionality this option should be used in conjunction with the \"Prevent skipping forward in a video\" option of Interactive Video."
                       }
                     ]
@@ -186,35 +186,35 @@
                     "label":"Visuals",
                     "fields":[
                       {
-                        "label":"Background color",
+                        "label":"لون الخلفية",
                         "default":"rgb(255, 255, 255)",
                         "spectrum":{
 
                         }
                       },
                       {
-                        "label":"Box shadow",
+                        "label":"ظل المربع",
                         "description":"يضيف ظل خفية حول التفاعل. قد تحتاج إلى تعطيل هذه التفاعلات شفاف تماما"
                       }
                     ]
                   },
                   {
-                    "label":"Go to on click",
+                    "label":"انتقل إلى النقر",
                     "fields":[
                       {
-                        "label":"Type",
+                        "label":"نوع",
                         "options":[
                           {
-                            "label":"Timecode"
+                            "label":"رمز الوقت"
                           },
                           {
-                            "label":"Another page (URL)"
+                            "label":"صفحة أخرى (رابط)"
                           }
                         ]
                       },
                       {
-                        "label":"Go To",
-                        "description":"The target time the user will be taken to upon pressing the hotspot. Enter timecode in the format M:SS."
+                        "label":"الذهاب إلى",
+                        "description":"الوقت المستهدف المستخدم سيتم اتخاذها لضغط على نقطة ساخنة. أدخل رمز الوقت بالتنسيق M:SS."
                       },
                       {
                         "label":"الرابط",
@@ -232,7 +232,7 @@
                                 "label":"(نسبي)"
                               },
                               {
-                                "label":"other"
+                                "label":"آخر"
                               }
                             ],
                             "default":"http://"
@@ -244,7 +244,7 @@
                       },
                       {
                         "label":"Visualize",
-                        "description":"Show that interaction can be clicked by adding a border and an icon"
+                        "description":"إظهار هذا التفاعل يمكن النقر فوقه عن طريق إضافة حد ورمز"
                       }
                     ]
                   }
@@ -299,12 +299,12 @@
       "label":"إعدادات سلوكية",
       "fields":[
         {
-          "label":"Start video at",
-          "description":"Enter timecode in the format M:SS"
+          "label":"بدء تشغيل الفيديو على",
+          "description":"أدخل رمز الوقت بالتنسيق M:SS"
         },
         {
           "label":"التشغيل التلقائي الفيديو",
-          "description":"Start playing the video automatically"
+          "description":"ابدأ تشغيل الفيديو تلقائيا"
         },
         {
           "label":"Loop the video",
@@ -315,39 +315,39 @@
           "description":"This option determines if the \"Show Solution\" button will be shown for all questions, disabled for all or configured for each question individually.",
           "options":[
             {
-              "label":"Enabled"
+              "label":"تفعيل"
             },
             {
-              "label":"Disabled"
+              "label":" تعطيل"
             }
           ]
         },
         {
-          "label":"Override \"Retry\" button",
+          "label":"Override \"إعادة\" button",
           "description":"This option determines if the \"Retry\" button will be shown for all questions, disabled for all or configured for each question individually.",
           "options":[
             {
-              "label":"Enabled"
+              "label":"تفعيل"
             },
             {
-              "label":"Disabled"
+              "label":"تعطيل"
             }
           ]
         },
         {
           "label":"Show button for rewinding 10 seconds",
-          "description":"This function is not available on iPad when using YouTube as video source"
+          "description":"هذه الوظيفة غير متوفرة على إيباد عند استخدام يوتيوب كمصدر فيديو"
         },
         {
-          "label":"Prevent skipping forward in a video"
+          "label":"منع التخطي إلى الأمام في الفيديو"
         },
         {
-          "label":"Deactivate sound",
-          "description":"Enabling this options will disable user video navigation through default controls."
+          "label":"إلغاء تنشيط الصوت",
+          "description":"سيؤدي تمكين هذا الخيار إلى تعطيل تنقل فيديو المستخدم عبر عناصر التحكم الافتراضية."
         },
         {
-          "label":"Deactivate sound",
-          "description":"Enabling this option will deactivate the video's sound and prevent it from being switched on."
+          "label":"إلغاء تنشيط الصوت",
+          "description":"يؤدي تمكين هذا الخيار إلى إلغاء تنشيط صوت الفيديو ومنع تشغيله."
         }
       ]
     },
@@ -379,11 +379,11 @@
           "default":"Video Quality"
         },
         {
-          "label":"Video captions title",
+          "label":"عنوان تسميات توضيحية للفيديو",
           "default":"Captions"
         },
         {
-          "label":"Close button text",
+          "label":"إغلاق زر النص",
           "default":"أغلق"
         },
         {
@@ -411,11 +411,11 @@
           "default":"Continue"
         },
         {
-          "label":"Default label for continue video button",
+          "label":"التسمية الافتراضية لمتابعة زر الفيديو",
           "default":"Continue with video"
         },
         {
-          "label":"Set playback rate",
+          "label":"تعيين معدل التشغيل",
           "default":"Playback Rate"
         },
         {
@@ -423,12 +423,12 @@
           "default":"Rewind 10 Seconds"
         },
         {
-          "label":"Navigation is disabled text",
+          "label":"تم تعطيل ميزة التنقل",
           "default":"Navigation is disabled"
         },
         {
-          "label":"Sound is disabled text",
-          "default":"Sound is disabled"
+          "label":"الصوت معطل",
+          "default":"الصوت معطل"
         },
         {
           "label":"محذرا من أن المستخدم يجب أن يجيب على السؤال بشكل صحيح قبل المتابعة",
